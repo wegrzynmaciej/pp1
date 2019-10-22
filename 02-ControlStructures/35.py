@@ -1,8 +1,8 @@
 # coding=utf-8
 # pierwiastki równania ax^2+bx+c=0
+
+
 from math import sqrt
-
-
 
 a = input("Podaj a: ")
 try:
