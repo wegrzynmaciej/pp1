@@ -15,4 +15,5 @@ else:
         i = i//2
     digits.reverse()
     digits = (str(digit) for digit in digits)
-    print(''.join(digits))
+    binary = ''.join(digits)
+    print("{0}(10) = {1}(2)".format(d,binary))
