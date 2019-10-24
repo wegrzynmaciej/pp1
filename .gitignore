@@ -1,5 +1,4 @@
-.vscode/settings.json
-02-ControlStructures/41-50/test.py
-04-Subroutines/__pycache__/functions.cpython-38.pyc
 .vscode/*
-01-TypesAndVariables/tempCodeRunnerFile.py
+*/test.py
+*/__pycache__/*
+*/tempCodeRunnerFile.py
