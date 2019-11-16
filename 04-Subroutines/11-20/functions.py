@@ -4,7 +4,7 @@ def rzut(ile=1):
     from random import randint
 
     table = []
-    for i in range(0, ile):
+    for _ in range(0, ile):
         table.append(randint(1, 6))
 
     return table
