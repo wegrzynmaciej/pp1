@@ -37,3 +37,4 @@ def wyswietl(table):
             print()
         print(f'{x} ', end='')
         n += 1
+    print()
