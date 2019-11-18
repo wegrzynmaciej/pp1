@@ -1,0 +1,8 @@
+21. 
+    multi = lambda x,y: x*y
+
+22. 
+    parzysta = lambda x: True if x % 2 == 0 else False
+
+23. 
+    xwieksze = lambda x,y: True if x > y else False
