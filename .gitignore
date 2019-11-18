@@ -1,6 +1,6 @@
 .vscode/*
 */test.py
-*/__pycache__/
+__pycache__/
 */__pycache__
 */tempCodeRunnerFile.py
 04-Subroutines/1-10/__pycache__
