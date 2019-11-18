@@ -62,3 +62,8 @@ def dominanta(table):
     # key - funkcja po której max() będzie porównywał
     # key=table.count - wyszukaj największej liczby dla której table.count(liczba) jest największa - np. dla 1 (w secie) table.count(1) (ile razy w table występuje liczba 1)
     return max(set(table), key=table.count)
+
+
+def losuj():
+    from random import randint
+    return randint(1, 50)
