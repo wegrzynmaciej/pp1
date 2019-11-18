@@ -62,3 +62,30 @@ def suma(tab):
         else:
             s += suma(val)
     return s
+
+
+def unique(tab):
+    seen = []
+    uniques = []
+    for val in tab:
+        if val not in seen:
+            uniques.append(val)
+            seen.append(val)
+        else:
+            uniques.remove(val)
+    return uniques
+
+
+def uppercase(string):
+    uppers = []
+    for c in string:
+        if c.isupper():
+            uppers.append(c)
+    return ''.join(uppers)
+
+
+def inrange(n, x, y):
+    if n >= x and n <= y:
+        return True
+    else:
+        return False
