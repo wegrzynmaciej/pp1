@@ -64,3 +64,43 @@ def drawStar():
             pen.right(144)
 
     turtle.done()
+
+
+def drawFilledSquare(x, y, m, color='black', existing=None):
+    if existing == None:
+        import turtle
+        pen = turtle.Turtle()
+    else:
+        pen = existing
+
+    pen.penup()
+    pen.setpos(x, y)
+    pen.seth(0)
+    pen.fillcolor(color)
+    pen.pendown()
+    pen.begin_fill()
+
+    for _ in range(4):
+        pen.forward(m)
+        pen.right(90)
+
+    pen.end_fill()
+
+    if existing == None:
+        turtle.done()
+
+
+def drawChessboard(m):
+    import turtle
+
+    pen = turtle.Turtle()
+    pen.speed(10)
+    color = 'white'
+    notcolor = 'black'
+
+    for y in range(8, 0, -1):
+        for x in range(8):
+            drawFilledSquare(x * m, y * m, m, color, pen)
+            if x != 7:
+                color, notcolor = (notcolor, color)
+    turtle.done()

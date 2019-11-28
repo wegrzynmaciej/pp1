@@ -16,6 +16,6 @@ elif mode == 'b':
 elif mode == 'c':
     sh.drawStar()
 elif mode == 'd':
-    pass
+    sh.drawFilledSquare(50, 50, 100)
 else:
-    pass
+    sh.drawChessboard(25)
