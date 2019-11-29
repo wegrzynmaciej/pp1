@@ -1,14 +1,14 @@
 ABTI American University of Nigeria
 Ahi Evran University
 Alma College
-Arkansas State University, Mountain Home"
+Arkansas State University, Mountain Home
 Ave Maria University
 Barry University
 Bellin College of Nursing
 Bircham International University
-California State University, Channel Islands"
+California State University, Channel Islands
 Carlow College
-Central University of Technology, Free State"
+Central University of Technology, Free State
 Chiba Keizai University
 Claremont Graduate University
 Cyprus International Institute of Management (CIIM)
@@ -21,7 +21,7 @@ Ecole des Hautes Etudes Commerciales
 Ege University
 European Institute of Education
 Eötvös Lorand University
-Fachhochschule Nürtingen, Hochschule für Wirtschaft, Landwirtschaft und Landespflege"
+Fachhochschule Nürtingen, Hochschule für Wirtschaft, Landwirtschaft und Landespflege
 Far Eastern University
 Fukuoka Prefectural University
 Georgia Health Sciences University
@@ -32,11 +32,11 @@ Groupe Sup de Co Montpellier
 Hanoi Open University
 Henan Agriculture University
 IMPAC University
-Indian Institute of Technology, Kharagpur"
+Indian Institute of Technology, Kharagpur
 Institut National Supérieur de Formation Agro-Alimentaire
-Institute of Advanced Legal Studies, University of London"
-Islamic Azad University, Dehaghan"
-Islamic Azad University, Shirvan"
+Institute of Advanced Legal Studies, University of London
+Islamic Azad University, Dehaghan
+Islamic Azad University, Shirvan
 Kazak National Technical University
 Kazakh British Technical University
 Lagrange College
