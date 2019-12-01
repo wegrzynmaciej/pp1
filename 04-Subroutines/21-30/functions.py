@@ -39,7 +39,25 @@ def liczSamogl(tekst):
 
 
 def rysujWykres(jezyki, wartosci):
+    # lista: [a, b, c, d] - jak w innych językach, z możliwością zmiany wartości
+    # tuple: (a, b, c, d) - lista ale bez możliwości zmiany obecnych wartości
+    # słownik: {'a':1, 'b':5, 'c':'qwerty', 'd':34.2} - lista w postaci klucz:wartość
+    #
+    #
+    # połączenie 2 list
+    # zip() łączy tablice do listy tupli, np. t1=[a,b,c], t2=[1,2,3]
+    # t3 = zip(t1,t2) --> t3=[(a,1), (b,2), (c,3)]
+    #
+    # dict() - mapuje listę tupli na słownik, tzn z t3 zrobi słownik {'a':1, 'b':2, 'c':3}
+
     d = dict(zip(jezyki, wartosci))
+    # pętla która przechodzi przez cały słownik d po KLUCZACH
+    #
+    # print('{:>10}: {} {}K'.format(key, '#'*d[key], d[key]))
+    # {:>10} -> 1 wartość z format() przyrównaj do prawej i zapisz na 10 znakach, puste zapełniając na spacje
+    # key -> nazwa języka
+    # '#'*d[key] -> wypisz znak '#' tyle razy, ile wynosi wartość przypisana do nazwy języka
+    # d[key] -> wypisz samą liczbę żeby było ładnie
     for key in d:
         print('{:>10}: {} {}K'.format(key, '#'*d[key], d[key]))
 
