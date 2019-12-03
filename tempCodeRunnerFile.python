@@ -1,0 +1,6 @@
+def suma(tab):
+    print(f'suma: {sum(tab)}')
+
+tab = [1,2,3,4,5]
+print(' '.join([str(x) for x in tab]))
+suma(tab)
