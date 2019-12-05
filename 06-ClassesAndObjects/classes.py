@@ -324,13 +324,3 @@ class ListaKontaktów():
     def show_list(self):
         for contact in self.contacts:
             contact.show_contact()
-
-
-if __name__ == "__main__":
-    n1 = Kontakt('Kowalski Jan', 'jank@onet.pl', '555234000')
-    n2 = Kontakt('Borek Patrycja', 'bp@o2.pl', '232000199')
-    n3 = Kontakt('Maj Piotr', 'maj@google.com', '222999100')
-    n4 = Kontakt('Adamczyk Anna', 'ada@poczta.pl', '100200300')
-    l = ListaKontaktów()
-    l.add_contact(n1, n2, n3, n4)
-    l.show_list()
