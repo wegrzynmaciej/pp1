@@ -1,10 +1,6 @@
 class Message():
     def __init__(self):
         self.message = ''
-<<<<<<< HEAD
-    def set_message(self,message):
-        self.message = message
-=======
 
     def set_message(self, message):
         self.message = message.capitalize() + ' BYE.'
@@ -40,4 +36,3 @@ class Email(Message):
                   'Temat:', self.topic,
                   'Treść:', self.message
               ))
->>>>>>> bd09bf5ac09cdeb2e439a94282daefa2fce8b286
