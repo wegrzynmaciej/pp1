@@ -1,3 +1,6 @@
+from math import sqrt, floor
+
+
 class Point():
     def __init__(self, x, y):
         self.x = x
@@ -7,10 +10,8 @@ class Point():
         return f'P({self.x},{self.y})'
 
     def __eq__(self, other):
-        return self.x == other.x and self.y == other.y
-
-
-p1 = Point(1, 2)
-p2 = Point(5, 6)
-p3 = Point(1, 2)
-print(p1 == p3)
+        if self.x == other.x and self.y == other.y:
+            return 'Odległość między punktami wynosi 0.'
+        else:
+            d = sqrt((self.x - other.x) ** 2 + (self.y - other.y) ** 2)
+            return 'Odległość między punktami wynosi {:.2f}'.format(d)
