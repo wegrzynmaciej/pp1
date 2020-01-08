@@ -1,5 +1,6 @@
 from point import Point
 
+p0 = Point(2, 5)
 p1 = Point(2, 5)
 p2 = Point(5, 9)
 p3 = Point(2, 9)
