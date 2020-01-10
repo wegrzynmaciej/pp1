@@ -1,0 +1,88 @@
+[
+    {
+        "table": "C",
+        "no": "006/C/NBP/2020",
+        "tradingDate": "2020-01-09",
+        "effectiveDate": "2020-01-10",
+        "rates": [
+            {
+                "currency": "dolar amerykański",
+                "code": "USD",
+                "bid": 3.7817,
+                "ask": 3.8581
+            },
+            {
+                "currency": "dolar australijski",
+                "code": "AUD",
+                "bid": 2.595,
+                "ask": 2.6474
+            },
+            {
+                "currency": "dolar kanadyjski",
+                "code": "CAD",
+                "bid": 2.8939,
+                "ask": 2.9523
+            },
+            {
+                "currency": "euro",
+                "code": "EUR",
+                "bid": 4.2009,
+                "ask": 4.2857
+            },
+            {
+                "currency": "forint (Węgry)",
+                "code": "HUF",
+                "bid": 0.01262,
+                "ask": 0.012874
+            },
+            {
+                "currency": "frank szwajcarski",
+                "code": "CHF",
+                "bid": 3.8888,
+                "ask": 3.9674
+            },
+            {
+                "currency": "funt szterling",
+                "code": "GBP",
+                "bid": 4.935,
+                "ask": 5.0346
+            },
+            {
+                "currency": "jen (Japonia)",
+                "code": "JPY",
+                "bid": 0.034538,
+                "ask": 0.035236
+            },
+            {
+                "currency": "korona czeska",
+                "code": "CZK",
+                "bid": 0.1663,
+                "ask": 0.1697
+            },
+            {
+                "currency": "korona duńska",
+                "code": "DKK",
+                "bid": 0.5621,
+                "ask": 0.5735
+            },
+            {
+                "currency": "korona norweska",
+                "code": "NOK",
+                "bid": 0.4258,
+                "ask": 0.4344
+            },
+            {
+                "currency": "korona szwedzka",
+                "code": "SEK",
+                "bid": 0.3984,
+                "ask": 0.4064
+            },
+            {
+                "currency": "SDR (MFW)",
+                "code": "XDR",
+                "bid": 5.2214,
+                "ask": 5.3268
+            }
+        ]
+    }
+]
