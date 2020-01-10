@@ -1,0 +1,12 @@
+{
+    "type": "desktop",
+    "broken": false,
+    "last-reboot": "2019-04-20",
+    "specs": {
+        "CPU": "2.7 GHz",
+        "GPU": "integrated",
+        "RAM": 8,
+        "drive": "HDD 500GB"
+    },
+    "purchase_date": 2015
+}

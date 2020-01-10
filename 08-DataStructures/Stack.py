@@ -12,4 +12,4 @@ class Stack:
         self.stack.append(item)
 
     def is_empty(self):
-        return len(self.stack)==0
+        return len(self.stack) == 0
