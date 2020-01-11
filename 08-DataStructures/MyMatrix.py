@@ -7,7 +7,7 @@ class matrix():
     @staticmethod
     def create(x, y):
         value = 0
-        matrix = [[value for i in range(y)] for j in range(x)]
+        matrix = [[value for _ in range(y)] for _ in range(x)]
         return matrix
 
     @staticmethod
