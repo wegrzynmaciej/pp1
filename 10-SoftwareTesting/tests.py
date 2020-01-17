@@ -108,5 +108,26 @@ class Test6(unittest.TestCase):
         self.assertEqual(matrix_sum_failure_on_m.value, [])
 
 
+class Test7(unittest.TestCase):
+
+    def test_stos_wstaw_zdejmij(self):
+        # Test klasy Stos
+        s = classes.Stos()
+        s.wstaw('as')
+        s.wstaw(10)
+        result = s.zdejmij()
+        self.assertEqual(result, '10')
+
+    def test_stos_jest_pusty(self):
+        s = classes.Stos()
+        result = []
+        result.append(s.jest_pusty())
+        s.wstaw('as')
+        result.append(s.jest_pusty())
+        s.zdejmij()
+        result.append(s.jest_pusty())
+        self.assertEqual(result, [True, False, True])
+
+
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main(verbosity=2)

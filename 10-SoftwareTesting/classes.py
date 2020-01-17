@@ -60,17 +60,23 @@ class Macierz():
             return Macierz(0, 0)
 
 
-if __name__ == "__main__":
+class Stos():
 
-    m1 = Macierz(3, 5)
-    m2 = Macierz(3, 5)
-    m3 = Macierz(5, 3)
-    m4 = Macierz(6, 6)
-    m5 = Macierz(0, 0)
-    m7 = Macierz(3, 2)
-    m6 = m1 + m7
-    m1.print()
-    print()
-    m2.print()
-    print()
-    m6.print()
+    def __init__(self):
+        self.stos = []
+
+    def jest_pusty(self):
+        if not self.stos:
+            return True
+        else:
+            return False
+
+    def wstaw(self, karta):
+        if str(karta) in ['as', 'król', 'dama', 'walet', '10', '9', '8', '7', '6', '5', '4', '3', '2']:
+            self.stos.append(str(karta))
+        else:
+            print('Podana wartość nie jest kartą')
+
+    def zdejmij(self):
+        if not self.jest_pusty():
+            return self.stos.pop()
