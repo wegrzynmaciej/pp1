@@ -237,10 +237,10 @@ class Rental():
 
     def __init__(self, name, *list_of_cars):
         self.name = name
+        self.cars = []
         if list_of_cars:
-            self.cars = list_of_cars
-        else:
-            self.cars = []
+            for car in list_of_cars:
+                self.cars.append(car)
 
     def __str__(self):
         arr = []
