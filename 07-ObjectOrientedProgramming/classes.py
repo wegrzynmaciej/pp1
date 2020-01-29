@@ -315,3 +315,21 @@ class Rental():
                 if not status:
                     car.change_mileage(
                         int(input('Podaj ilość przejechanych kilometrów: ')) if not mileage else int(*mileage))
+
+
+tab = [x for x in range(20, 100, 5)]
+print(tab)
+tab_nie_ciag = [2, 5, 6, 7, 12, 23, 24, 25, 26]
+
+
+def test_ciag(tablica):
+    diff = tablica[0] - tablica[1]
+    print(len(tablica))
+    for indeks in range(1, len(tablica)):
+        if tablica[indeks-1] - tablica[indeks] != diff:
+            return False
+    return True
+
+
+print(test_ciag(tab))
+print(test_ciag(tab_nie_ciag))

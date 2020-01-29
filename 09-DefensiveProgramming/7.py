@@ -1,6 +1,6 @@
 try:
-    h = input('Wzrost w cm: ')
-    int(h)
+    h = int(input('Wzrost w cm: '))
+
 except (ValueError):
     print('Wzrost nie jest liczbą całkowitą')
     exit()
