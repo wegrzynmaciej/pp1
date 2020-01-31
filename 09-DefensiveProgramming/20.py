@@ -31,7 +31,6 @@ Wynagrodzenie łączne: {:.2f} PLN '.format(
             self.wynagrodzenie,
             self.dodatek(),
             self.wynagrodzenie + self.dodatek()
-
         )
 
 
