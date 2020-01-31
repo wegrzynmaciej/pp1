@@ -16,3 +16,10 @@ except ValueError:
 assert 40.0 <= w <= 150.1, 'Waga poza skalą 40.0-150.0'
 bmi = w/(h/100)**2
 print('Wzrost: {}cm\nWaga: {}kg\nBMI: {:.2f}'.format(h, w, bmi))
+
+
+def iloczyn(z1, z2):
+    return z1 & z2
+
+
+print(*iloczyn({1, 2, 3}, {2, 3, 4, 5}), sep=',')
